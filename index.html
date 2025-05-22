@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Smallest and Largest in Array</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Find Smallest and Largest Elements in an Array</h2>
+        <label for="arrayInput">Enter numbers separated by commas:</label>
+        <input type="text" id="arrayInput" size="50" placeholder="Example: 4, 1, 7, 9, 2">
+        <div class="button-group">
+            <button onclick="displayAlgorithm('brute')">Brute-force</button>
+            <button onclick="displayAlgorithm('presort')">Presorting-based</button>
+            <button onclick="displayAlgorithm('divide')">Divide-and-Conquer</button>
+        </div>
+        <h3>Result</h3>
+        <div id="results"></div>
+    </div>
+    <footer>
+        <span>Made for Algorithms study</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
